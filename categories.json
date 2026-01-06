@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "categories": [
+    {
+      "id": "visualization",
+      "name": "Visualization",
+      "description": "Charts, graphs, and visual analysis tools"
+    },
+    {
+      "id": "indicators",
+      "name": "Indicators",
+      "description": "Technical indicators and signals"
+    },
+    {
+      "id": "trading",
+      "name": "Trading",
+      "description": "Trading strategies and execution tools"
+    },
+    {
+      "id": "data",
+      "name": "Data",
+      "description": "Data sources and market data integrations"
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "description": "Machine learning and AI-powered tools"
+    },
+    {
+      "id": "tools",
+      "name": "Tools",
+      "description": "Utilities and helper tools"
+    }
+  ]
+}

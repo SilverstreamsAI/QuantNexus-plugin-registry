@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-06T00:00:00Z",
+  "plugins": [
+    {
+      "id": "com.quantnexus.hello-world-strategy",
+      "name": "Hello World Strategy",
+      "description": "A simple example strategy plugin demonstrating the QuantNexus plugin architecture",
+      "author": "QuantNexus Team",
+      "version": "1.0.0",
+      "icon": null,
+      "tags": ["trading", "example", "beginner"]
+    },
+    {
+      "id": "com.quantnexus.advanced-charts",
+      "name": "Advanced Charts",
+      "description": "Professional charting with 50+ technical indicators including RSI, MACD, Bollinger Bands",
+      "author": "ChartMaster",
+      "version": "1.2.0",
+      "icon": null,
+      "tags": ["visualization", "indicators", "charting"]
+    },
+    {
+      "id": "com.quantnexus.ai-strategy-analyzer",
+      "name": "AI Strategy Analyzer",
+      "description": "ML-powered strategy analysis and optimization using machine learning models",
+      "author": "AlgoDev",
+      "version": "0.9.0",
+      "icon": null,
+      "tags": ["ai", "analysis", "optimization"]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "com.quantnexus.advanced-charts",
+  "name": "Advanced Charts",
+  "description": "Professional charting with 50+ technical indicators including RSI, MACD, Bollinger Bands, and more. Features customizable themes and real-time updates.",
+  "author": {
+    "name": "ChartMaster",
+    "github": "chartmaster",
+    "email": "contact@chartmaster.dev"
+  },
+  "repository": "https://github.com/chartmaster/qn-advanced-charts",
+  "license": "MIT",
+  "categories": ["visualization", "indicators"],
+  "pricing": {
+    "type": "free",
+    "premiumUrl": null
+  },
+  "permissions": {
+    "network": false,
+    "filesystem": "plugin",
+    "native": false
+  },
+  "ui": {
+    "panel": {
+      "title": "Chart Settings",
+      "position": "sidebar",
+      "inputs": [
+        { "id": "period", "type": "number", "label": "Period", "default": 14 },
+        { "id": "theme", "type": "select", "label": "Theme", "options": ["dark", "light"], "default": "dark" }
+      ]
+    }
+  },
+  "logic": {
+    "entry": "src/index.py",
+    "runtime": "python",
+    "worker": true
+  },
+  "dependencies": {
+    "python": ["numpy>=1.20.0", "pandas>=1.3.0"],
+    "node": {}
+  },
+  "pluginDependencies": {},
+  "versions": [
+    {
+      "version": "1.2.0",
+      "releaseDate": "2026-01-04",
+      "downloadUrl": "https://github.com/chartmaster/qn-advanced-charts/releases/download/v1.2.0/plugin.zip",
+      "sha256": "a1b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef123456",
+      "minEngine": "0.1.0",
+      "changelog": "Added 10 new indicators and improved performance."
+    },
+    {
+      "version": "1.1.0",
+      "releaseDate": "2025-12-15",
+      "downloadUrl": "https://github.com/chartmaster/qn-advanced-charts/releases/download/v1.1.0/plugin.zip",
+      "sha256": "b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef1234567a",
+      "minEngine": "0.1.0",
+      "changelog": "Added Bollinger Bands and improved UI."
+    }
+  ]
+}

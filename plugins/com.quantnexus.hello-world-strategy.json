@@ -1,0 +1,51 @@
+{
+  "id": "com.quantnexus.hello-world-strategy",
+  "name": "Hello World Strategy",
+  "description": "A simple example strategy plugin demonstrating the QuantNexus plugin architecture. Perfect for learning how to build your own plugins.",
+  "author": {
+    "name": "QuantNexus Team",
+    "github": "SilverstreamsAI",
+    "email": "plugins@quantnexus.io"
+  },
+  "repository": "https://github.com/SilverstreamsAI/QuantNexus",
+  "license": "MIT",
+  "categories": ["trading", "example"],
+  "pricing": {
+    "type": "free",
+    "premiumUrl": null
+  },
+  "permissions": {
+    "network": false,
+    "filesystem": "plugin",
+    "native": false
+  },
+  "ui": {
+    "panel": {
+      "title": "Hello World Settings",
+      "position": "sidebar",
+      "inputs": [
+        { "id": "message", "type": "text", "label": "Message", "default": "Hello, QuantNexus!" }
+      ]
+    }
+  },
+  "logic": {
+    "entry": "src/index.py",
+    "runtime": "python",
+    "worker": false
+  },
+  "dependencies": {
+    "python": [],
+    "node": {}
+  },
+  "pluginDependencies": {},
+  "versions": [
+    {
+      "version": "1.0.0",
+      "releaseDate": "2026-01-05",
+      "downloadUrl": "https://github.com/SilverstreamsAI/QuantNexus/releases/download/plugin-hello-world-v1.0.0/plugin.zip",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "minEngine": "0.1.0",
+      "changelog": "Initial release of the Hello World Strategy plugin."
+    }
+  ]
+}
