@@ -1,0 +1,30 @@
+{
+  "id": "com.quantnexus.quant-lab-nexus",
+  "name": "Quant Lab",
+  "description": "Alpha Factory - Signal combination and evaluation for multi-strategy quantitative trading. Build, test, and deploy sophisticated trading strategies using signal composition and machine learning.",
+  "author": {
+    "name": "QuantNexus",
+    "github": "SilverstreamsAI"
+  },
+  "repository": "https://github.com/SilverstreamsAI/QuantNexus",
+  "license": "MIT",
+  "categories": ["execution", "alpha"],
+  "pricing": {
+    "type": "free"
+  },
+  "permissions": {
+    "network": true,
+    "filesystem": "plugin",
+    "native": false
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "releaseDate": "2026-02-06",
+      "downloadUrl": "https://github.com/SilverstreamsAI/QuantNexus/releases/download/v1.0.0/quant-lab-nexus-1.0.0.zip",
+      "sha256": "pending",
+      "minEngine": "0.1.0",
+      "changelog": "Initial release - Alpha Factory with signal combination and evaluation"
+    }
+  ]
+}

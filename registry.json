@@ -1,7 +1,16 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-06T00:00:00Z",
+  "lastUpdated": "2026-02-06T00:00:00Z",
   "plugins": [
+    {
+      "id": "com.quantnexus.quant-lab-nexus",
+      "name": "Quant Lab",
+      "description": "Alpha Factory - Signal combination and evaluation for multi-strategy quantitative trading",
+      "author": "QuantNexus",
+      "version": "1.0.0",
+      "icon": null,
+      "tags": ["alpha", "signals", "quant", "trading"]
+    },
     {
       "id": "com.quantnexus.hello-world-strategy",
       "name": "Hello World Strategy",
